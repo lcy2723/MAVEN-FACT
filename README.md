@@ -4,7 +4,7 @@ Source code and dataset for paper "MAVEN-FACT: A Large-scale Event Factuality De
 
 ## Overview
 
-MAEVN-Fact is a large-scale and high-quality event factuality detection dataset based on the MAVEN dataset. MAVEN-FACT includes factuality annotations of 112,276 events and supporting evidence annotations for non-factual events. 
+MAEVN-FACT is a large-scale and high-quality event factuality detection dataset based on the MAVEN dataset. It includes factuality annotations of 112,276 events and supporting evidence annotations for non-factual events. 
 
 ## Requirements
 
@@ -22,7 +22,7 @@ The dataset can be obtained from [Google Drive](https://drive.google.com/drive/f
 
 Each `.jsonl` file is a subset of `MAVEN-Fact` and each line in the files is a JSON string for a document. For the `train.jsonl` and `valid.jsonl`, the JSON format sample is as below:
 
-```json
+```JSON5
 {
     "id": "364ed14fc610df6e25a2f446e2b2d2ab", // an unique string for each document
     "title": "Expedition of the Thousand",	// the title of the document
